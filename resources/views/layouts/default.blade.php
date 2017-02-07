@@ -11,8 +11,9 @@
           <a href="/" id="logo">Sample App</a>
           <nav>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/help">帮助</a></li>
-              <li><a href="#">登录</a></li>
+              <li><a href="{{ route('help') }}">Help</a></li>
+              <li><a href="{{ route('about') }}">About</a></li>
+              <li><a href="#">Login</a></li>
             </ul>
           </nav>
         </div>

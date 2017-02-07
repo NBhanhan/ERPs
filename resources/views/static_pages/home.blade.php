@@ -10,7 +10,7 @@
       Test
     </p>
     <p>
-      <a class="btn btn-lg btn-success" href="#" role="button">STORE</a>
+      <a class="btn btn-lg btn-success" href="{{ route('create') }}" role="button">REGISTER</a>
       <a class="btn btn-lg btn-success" href="#" role="button">SEARCH</a>
       <a class="btn btn-lg btn-success" href="#" role="button">UPDATE</a>
       <a class="btn btn-lg btn-success" href="#" role="button">DESTROY</a>
