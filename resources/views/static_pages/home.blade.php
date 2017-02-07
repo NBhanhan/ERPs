@@ -1,13 +1,13 @@
 @extends('layouts.default')
-@section('title', 'HOME')
+
 @section('content')
   <div class="jumbotron">
-    <h1>Hello Laravel</h1>
+    <h1>SUPPLIERS</h1>
     <p class="lead">
       ERP Suppliers
     </p>
     <p>
-      Start from here
+      Test
     </p>
     <p>
       <a class="btn btn-lg btn-success" href="#" role="button">STORE</a>

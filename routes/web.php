@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/home', 'StaticPagesController@home');
+Route::get('/help', 'StaticPagesController@help');
+Route::get('/about', 'StaticPagesController@about');
+//Route::post('/supplier', 'SupplierController@store');
+//Route::get('/suppliers/search', 'SupplierController@search');
+//Route::patch('/supplier/{supplier}', 'SupplierController@update');
+//Route::delete('/supplier/{supplier}', 'SupplierController@destory');

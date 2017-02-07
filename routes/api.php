@@ -13,14 +13,6 @@ use Illuminate\Http\Request;
 |
 */
 
-/*Route::middleware('auth:api')->get('/user', function (Request $request) {
+Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-*/
-Route::get('/', 'StaticPagesController@home');
-Route::get('/help', 'StaticPagesController@help');
-Route::get('/about', 'StaticPagesController@about');
-Route::post('/supplier', 'SupplierController@store');
-Route::get('/suppliers/search', 'SupplierController@search');
-Route::patch('/supplier/{supplier}', 'SupplierController@update');
-Route::delete('/supplier/{supplier}', 'SupplierController@destory');
